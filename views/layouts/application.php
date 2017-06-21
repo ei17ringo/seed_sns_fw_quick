@@ -8,11 +8,11 @@
     <title>SeedSNS</title>
 
     <!-- Bootstrap -->
-    <link href="../../webroot/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../../webroot/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="../../webroot/assets/css/form.css" rel="stylesheet">
-    <link href="../../webroot/assets/css/timeline.css" rel="stylesheet">
-    <link href="../../webroot/assets/css/main.css" rel="stylesheet">
+    <link href="../webroot/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../webroot/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../webroot/assets/css/form.css" rel="stylesheet">
+    <link href="../webroot/assets/css/timeline.css" rel="stylesheet">
+    <link href="../webroot/assets/css/main.css" rel="stylesheet">
     <!--
       designフォルダ内では2つパスの位置を戻ってからcssにアクセスしていることに注意！
      -->
@@ -48,8 +48,8 @@
   </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../../webroot/assets/js/jquery-3.1.1.js"></script>
-    <script src="../../webroot/assets/js/jquery-migrate-1.4.1.js"></script>
-    <script src="../../webroot/assets/js/bootstrap.js"></script>
+    <script src="../webroot/assets/js/jquery-3.1.1.js"></script>
+    <script src="../webroot/assets/js/jquery-migrate-1.4.1.js"></script>
+    <script src="../webroot/assets/js/bootstrap.js"></script>
   </body>
 </html>
