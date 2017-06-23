@@ -6,7 +6,15 @@
           <div class="form-group">
             <label class="col-sm-4 control-label">ニックネーム</label>
             <div class="col-sm-8">
-              <input type="text" name="nick_name" class="form-control" placeholder="例： Seed kun">
+              <?php if (isset($post['nick_name'])): ?>
+              <input type="text" name="nick_name" class="form-control" placeholder="例： Seed kun"　value="<?php echo htmlspecialchars($post['nick_name'], ENT_QUOTES, 'UTF-8'); ?>">
+              <?php else: ?>
+               <input type="nick_name" name="nick_name" class="form-control" placeholder="例： Seed kun">
+               <?php endif; ?>
+              <?php if(isset($error['nick_name']) && $error['nick_name'] == 'blank'){ ?>
+
+              <p class="error">* ニックネームを入力してください</p>
+              <?php } ?>
             </div>
           </div>
           <!-- メールアドレス -->
